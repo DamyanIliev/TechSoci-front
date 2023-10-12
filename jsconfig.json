@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "@services": ["./store"],
+      "@components": ["./components"],
+      "@views": ["./view"],
+      "@resources": ["./resources"],
+      "@styles": ["./resources/style"],
+      "@images": ["./resources/images"],
+      "@root": ["./"]
+    }
+  },
+  "exclude": ["node_modules"]
+}

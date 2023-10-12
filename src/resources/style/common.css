@@ -1,0 +1,29 @@
+.centerY {
+  margin: 50% 0px 50% 0px;
+}
+.centerXY {
+  margin: 50% 50% 50% 50%;
+}
+
+.modalStyle .ant-modal-content {
+  background-color: #32db29;
+}
+.modalStyle .ant-modal-header {
+  background-color: #36ae42;
+  color: white;
+}
+
+.createPostModal .ant-modal-content {
+  background-color: #d3cac9;
+}
+.createPostModal .ant-modal-header {
+  background-color: #d3cac9;
+  color: #51ca4b !important;
+}
+
+.background {
+  background: url("../images/welcome_bg.jpg");
+  background-size: cover;
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,73 @@
+
+@media only screen and (min-width: 769px) {
+body {
+ background:  url("../images/welcome_bg.jpg");
+ background-size: cover;
+ background-color: #cccccc;
+  background-repeat: no-repeat;
+}
+
+.split {
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  width: 45%;
+  left: 0;
+}
+
+.right {
+  right: 0;
+  width: 55%;
+  background: rgb(55, 163, 55);
+  background: linear-gradient(90deg, rgba(193, 218, 195, 0) 0%, rgba(100, 151, 106, 0.748) 17%, rgba(82, 148, 68, 0.97) 39%, rgb(48, 123, 48) 60%);
+}
+.center {
+  margin: 35%;
+  padding-left:30%;
+  width: 50%;
+}
+
+
+}
+
+@media only screen and (max-width: 768px) {
+body {
+ background:  url("../images/welcome_bg.jpg");
+ background-color: #cccccc;
+  background-size: cover;
+ background-repeat: no-repeat;
+}
+
+.split {
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  height: 33%;
+  top: 0;
+}
+
+.right {
+  bottom: 0;
+  height: 70%;
+  background: rgb(57, 150, 43);
+}
+.center {
+  margin: 25%;
+  width: 50%;
+}
+
+}
+.btns-center {
+    display: inline-grid;
+}
